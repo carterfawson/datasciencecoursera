@@ -1,0 +1,39 @@
+Types of Data Science questions.
+
+Descriptive analysis
+--> You are just trying to describe the data, not make decisions from it, just describe.
+--> mostly related to census data
+--> purely a description
+
+Exploratory analysis
+--> good for discovering connections
+--> shouldn't be used for predicting, but it is good to see how you can further look into questions.
+--> correllation does not mean causation
+--> This is like what Raja was doing.
+
+Inferential analysis
+--> This is how most statistical models work.
+--> it's using a smaller data set to be able to make inferences about the population as a whole. This is your basic statistical model.
+
+Predictive analysis
+--> To use data to predict values for another object
+--> if X predicts Y, does not mean X causes Y
+--> FiveThirtyEight blog
+
+Causal Analysis
+--> Using randomized studies to identify causation
+--> this is a very difficult 
+--> causal models are the gold end result hoped for in statistical analysis.
+
+Mechanistic Analysis
+--> First of all i should probably review these sometime so that I can have these in my vocabulary. Second, this is the most difficult of them all and is mainly used in like engineering or physical sciences.
+
+WHAT IS DATA?
+The two most important things in data science
+1. The QUESTION
+2. The Data
+
+This is something that a lot of people don't understand very well. That Big Data just isn't some thing that you can download and use. It's all about being able to ask the right question and then get the data that will allow you to answer the question.
+
+WHAT ABOUT BIG DATA?
+This is something that I hear all the time. Especially at FHR. People are talking about moving over to the cloud, or using data analytics. The issue is that there are so many people that are scared of change, and then there are some people that throw these things around like buzzwords. Thinking that we need it but not really knowing a plausible application for it. I think that this is a problem within FHR. I just don't see there being any objective look at how we are running IT and how we can innovate as we move forward into the future. That's what our intern project is about.
