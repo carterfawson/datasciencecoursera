@@ -5,7 +5,7 @@
 #3. Flexible and robust but requires more parameters
 #4. Related: read.csv(), read.csv2()
 
-setwd("/Users/cfaw/datasciencecoursera/getclean_data")
+setwd("/Users/cfaw/datasciencecoursera/getclean_data/week1")
 
 #default for read.table is to look for a tab delimited file, so for the csv you have to specify the delimeter
 cameraData <- read.table("./data/cameras.csv", sep=",", header=TRUE)
