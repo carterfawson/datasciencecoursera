@@ -116,10 +116,12 @@ tidy_data <- tbl_df(tidy_data)
 summary_data <- group_by(tidy_data, Subjects, Activities)
 summary_data <- summary_data %>% summarise_each(funs(mean))
 
-#Now I will write both datasets out to csv files
+#These csv files were just for my own use:
+#write.csv(tidy_data, "full_tidyData.csv")
+#write.csv(summary_data, "tidyData.csv")
 
-write.csv(tidy_data, "full_tidyData.csv")
-write.csv(summary_data, "tidyData.csv")
+#Now I write out the data to a text file:
+write.table(summary_data, "cfaw_tidydata.txt", row.names = FALSE)
 
 
 
